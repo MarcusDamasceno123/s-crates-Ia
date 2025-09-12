@@ -74,4 +74,18 @@ const perguntas=[
     },
 ];
 
+let atual = 0;
+let perguntaAtual;
+let historiafinal="";
 
+function mostraPergunta(){
+    if(atual >=perguntas.leght){
+        mostraResultado();
+        return:
+    }
+
+    perguntaAtual=perguntas[atual];
+    caixaPreguntas.textContent = perguntaAtual.enunciado;
+    caixaAlternativas.textContent="";
+    mostraAlternativas();
+}
