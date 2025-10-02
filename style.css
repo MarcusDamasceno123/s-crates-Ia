@@ -1,5 +1,5 @@
 :root{
---cor-fundo:#e22f2f;
+--cor-fundo:#2495f1;
 --cor-principal: #000000;
 --cor-secundaria: #38acc9;
 --cor-texto: #55c1ff;
@@ -21,13 +21,15 @@ height: 100vh;
     max-width: 600px;
     text-align: center;
     padding: 20px;
+    border-radius: 15px;
+    margin-botom: 10px
 }
 h1{
     color: var(--cor-secundaria);
 }
 
 .imagem-principal{
-    width: 100%;
+    width: 50%;
     border-radius: 15px;
     margin-top: 20px;
 }
